@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .transaction-table {
+        border-collapse: collapse;
+      }
+
+      .transaction-table th,
+      .transaction-table td {
+        padding: 8px;
+        border: 1px solid #2a2a2a;
+      }
+
+      .title__link {
+        display: inline-flex;
+        margin-left: 40px;
+      }
+    </style>
   </head>
   <body>
     <!-- task-1 -->
@@ -39,15 +55,35 @@
         </ul>
       </li>
     </ul>
-    <!-- <script src="./js/task-1.js" type="module"></script> -->
-    <!-- <script src="./js/task-2.js" type="module"></script> -->
+
+    <hr />
+    <!-- task-2 -->
+    <ul id="ingredients"></ul>
+
+    <hr />
+    <!-- task-3 -->
+    <ul id="gallery"></ul>
+
+    <hr />
+    <!-- task-4 -->
+    <div id="counter">
+      <button type="button" data-action="decrement">-1</button>
+      <span id="value">0</span>
+      <button type="button" data-action="increment">+1</button>
+    </div>
+
+    <hr />
+    <!-- task-5 -->
+    <input type="text" placeholder="Ваше имя?" id="name-input" />
+    <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+
+    <script src="./js/task-1.js" type="module"></script>
+    <script src="./js/task-2.js" type="module"></script>
     <script src="./js/task-3.js" type="module"></script>
+    <script src="./js/task-4.js" type="module"></script>
+    <script src="./js/task-5.js" type="module"></script>
+    <script src="./js/task-6.js" type="module"></script>
+    <script src="./js/task-7.js" type="module"></script>
+    <script src="./js/task-8.js" type="module"></script>
   </body>
 </html>
-
-<hr />
-
-<!-- task-2 -->
-<ul id="ingredients"></ul>
-
-<hr />
